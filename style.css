@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+
+    background-image: url('bg.jpg');
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+.main{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    height: 88vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.4rem;
+    font-family: 'Play', sans-serif;
+    color: white;
+    margin: auto;
+    left: 50%;
+}
+
+.logo{
+    width:6rem ;
+    margin: auto;
+}
+
+div div{
+    border: 0.3px solid white;
+    width: 70%;
+    border-radius: 10rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.links{
+    margin-top: 2rem;
+}
+
+div h3{
+    margin-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+.lkdn{
+    background-image: linear-gradient(to left,#020061,#051a40);
+    transition: 0.2s;
+
+}
+.lkdn:hover{
+    background-image: linear-gradient(to left,#020153,#092355);
+    transition: 0.2s;
+}
+
+.insta{
+    background-image: linear-gradient(to left,#FF003D,#EB00FF,#1714C4);
+    transition: 0.2s;
+}
+.insta:hover{
+    background-image: linear-gradient(to left,#ba002b,#ac00bc,#0400ff);
+    transition: 0.2s;
+}
+
+.git{
+    background-image: linear-gradient(to left,#001253,#0B355D,#00213A);
+    transition: 0.2s;
+}
+.git:hover{
+    background-image: linear-gradient(to left,#001253,#135592,#031b2d);
+    transition: 0.2s;
+}
+.yt:hover{
+    background-color: #1c1c1c98;
+    transition: 0.2s;
+
+}
+
+.tech{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer p{
+    margin-top: 10vh;
+    font-family: 'Inter', sans-serif;
+}
+
+footer a{
+    color: #ffe100;
+}
